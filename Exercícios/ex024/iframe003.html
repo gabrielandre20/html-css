@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #tela {
+            width: 95vh;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat veniam eos, laboriosam saepe voluptatem delectus voluptates, eius laudantium fugiat ea reprehenderit odit? Atque adipisci, consequatur expedita dignissimos perspiciatis nulla?</p>
+
+    <ul>
+        <li><a href="pagina001.html" target="frame">Primeira Página</a></li>
+        <li><a href="iframe002.html" target="frame">Segunda Página</a></li>
+        <li><a href="index.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id pariatur tempore quaerat quo ipsam excepturi odio aliquid esse facere expedita ullam, fugiat architecto necessitatibus cumque nisi distinctio repellendus enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maxime iste pariatur fuga hic est a? Minima, est repudiandae assumenda nihil sequi quam sunt. Laborum soluta et dignissimos eaque ad.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima<h1> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci commodi fugit, sunt dolore fugiat asperiores dolores consectetur enim omnis atque quibusdam. Maiores deleniti tempora officia adipisci hic natus exercitationem!</p> " frameborder="1">
+        <p>Infelizmente seu navegador não é compatível com iframe.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste, corrupti sequi illum eos totam quos temporibus eveniet quae commodi ipsa minus explicabo error dolore ea veniam consequuntur in itaque.</p>
+</body>
+</html>
